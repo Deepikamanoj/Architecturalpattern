@@ -12,6 +12,7 @@ public class LoggingInterceptor extends Interceptor {
     @Override
     public void afterRentMovie(Customer customer, Movie movie, int daysRented) {
         System.out.println("Movie rented: " + movie.getTitle() + " for " + customer.getName());
+        System.out.println("Movie rented: " + movie.getTitle() + " for " + customer.getName());
     }
 }
 

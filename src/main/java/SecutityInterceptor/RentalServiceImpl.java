@@ -19,6 +19,8 @@ public class RentalServiceImpl implements RentalService {
             dispatcher.add(interceptor, customer, movie, daysRented);
         }
         dispatcher.dispatch();
+
+        Dispatcher dispatcher = new Dispatcher();
     }
 }
 
