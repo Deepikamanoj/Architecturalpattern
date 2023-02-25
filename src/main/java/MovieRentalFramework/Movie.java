@@ -1,9 +1,9 @@
 package MovieRentalFramework;
 
 public abstract class Movie {
-    public static final Object REGULAR = ;
-    public static final Object NEW_RELEASE = ;
-    public static final Object CHILDRENS = ;
+    public static final Object REGULAR = 1;
+    public static final Object NEW_RELEASE = 1;
+    public static final Object CHILDRENS = 1;
     private String title;
 
     public Movie(String title) {
